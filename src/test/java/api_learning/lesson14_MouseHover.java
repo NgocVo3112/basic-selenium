@@ -62,7 +62,7 @@ public class lesson14_MouseHover implements Urls {
 
         } catch (Exception ignored) {
         } finally {
-            driver.quit();
+           // driver.quit();
         }
     }
 

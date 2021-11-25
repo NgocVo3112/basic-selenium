@@ -10,7 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class lesson14_JsAlert implements Urls { private static final By jsAlertSel = By.cssSelector("[onclick=\"jsAlert()\"]");
+public class lesson14_JsAlert implements Urls {
+    private static final By jsAlertSel = By.cssSelector("[onclick=\"jsAlert()\"]");
     private static final By jsAlertConfirmSel = By.cssSelector("[onclick=\"jsConfirm()\"]");
     private static final By jsAlertPromptSel = By.cssSelector("[onclick=\"jsPrompt()\"]");
     private static final By resultSel = By.cssSelector("#result");
