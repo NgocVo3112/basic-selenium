@@ -3,12 +3,15 @@ package test.authentication;
 import driver.DriverFactory;
 import models.pages.Authentication.LoginPage;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import static url.Urls.baseURL;
 import static url.Urls.loginSlug;
 
 public class LoginTest {
-    public static void main(String[] args) {
+    @Test
+    public void loginWithCorrectCreds() {
         String usernameStr = "tomsmith";
         String passwordStr = "SuperSecretPassword!";
         WebDriver driver = DriverFactory.getChromeDriver();
@@ -22,8 +25,14 @@ public class LoginTest {
                     .inputUsername(usernameStr)
                     .inputPassword(passwordStr)
                     .clickOnLoginBtn();
-            System.out.println(loginPage.footerComp().FooterText());
-            System.out.println(loginPage.footerComp().FooterLinkText());
+            String actualFooterComp = loginPage.footerComp().FooterText();
+            String expectedFooterComp = "Powered by Elemental Selenium";
+
+            String actualFooterLink = loginPage.footerComp().FooterLinkText();
+            String expectedFooterLink = "http://elementalselenium.com";
+
+            Assert.assertEquals(actualFooterComp,expectedFooterComp);
+            Assert.assertEquals(actualFooterLink, expectedFooterLink);
 
         }catch (Exception e) {
             e.printStackTrace();
@@ -32,7 +41,5 @@ public class LoginTest {
         }
 
     }
-
-
 
 }
