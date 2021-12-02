@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.authentication.LoginTest",
+    "children" : [ {
+      "name" : "loginWithCorrectCreds",
+      "uid" : "f60dc1e6d1ebd38b",
+      "parentUid" : "8cf775ee5d7da8597e067cb61839e8fe",
+      "status" : "failed",
+      "time" : {
+        "start" : 1638408727164,
+        "stop" : 1638408734488,
+        "duration" : 7324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.authentication.LoginTest"
+  } ]
+}

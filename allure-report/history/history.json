@@ -1,0 +1,22 @@
+{
+  "5debb0d8ced87fe99df8748d7acfe525" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f60dc1e6d1ebd38b",
+      "status" : "failed",
+      "statusDetails" : "expected [http://elementalselenium.com] but found [http://elementalselenium.com/]",
+      "time" : {
+        "start" : 1638408727164,
+        "stop" : 1638408734488,
+        "duration" : 7324
+      }
+    } ]
+  }
+}

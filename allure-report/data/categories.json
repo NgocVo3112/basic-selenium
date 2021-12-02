@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [http://elementalselenium.com] but found [http://elementalselenium.com/]",
+      "children" : [ {
+        "name" : "loginWithCorrectCreds",
+        "uid" : "f60dc1e6d1ebd38b",
+        "parentUid" : "0692b1997d0f8b73dd45b622957c5ada",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638408727164,
+          "stop" : 1638408734488,
+          "duration" : 7324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0692b1997d0f8b73dd45b622957c5ada"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

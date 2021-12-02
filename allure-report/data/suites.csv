@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Dec 02 08:32:07 ICT 2021","Thu Dec 02 08:32:14 ICT 2021","7324","Regression","authentication","test.authentication.LoginTest","test.authentication.LoginTest","loginWithCorrectCreds","loginWithCorrectCreds",""

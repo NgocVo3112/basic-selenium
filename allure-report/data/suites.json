@@ -1,0 +1,34 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Regression",
+    "children" : [ {
+      "name" : "authentication",
+      "children" : [ {
+        "name" : "test.authentication.LoginTest",
+        "children" : [ {
+          "name" : "loginWithCorrectCreds",
+          "uid" : "f60dc1e6d1ebd38b",
+          "parentUid" : "8665c4dd560f3ec53447c4f3c84fc62a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1638408727164,
+            "stop" : 1638408734488,
+            "duration" : 7324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8665c4dd560f3ec53447c4f3c84fc62a"
+      } ],
+      "uid" : "3405f5d7aa0132b42c7eaaa26c98a8d6"
+    } ],
+    "uid" : "5ba398ba8a4e16d50ebb84d8f641e8da"
+  } ]
+}
